@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBm1LZW8clZL7-bqiUAs9qO3dFF8aMZmmT-w&usqp=CAU");
+            background-size: cover;
+        }
+        form{
+            background-color: white;
+            margin: 150px;
+            box-shadow: 2px 5px 10px;
+            max-width: 500px;
+        }
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body >
+    <center><form>
+        <label for="name">Name</label>
+        <input type="text" placeholder="lastname firstname" >
+        <br><label for="Email">Email</label>
+        <input type="email" placeholder="abc@gmail.com">
+        <br><label for="dateofbirth">date of birth</label><br>
+        <input type="date" >
+        <br><label for="role">Which option is good for you ?</label>
+        <select id="role">
+            <option id="student">student</option>
+            <option id="intern">intern</option>
+            <option id="lead">lead</option>
+        </select>
+        <br>
+        <label for="confirmation" id="choose1">do you refer your friend about w3schools?</label>
+        <br><input type="radio" name="con1">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" name="con1">
+        <label for="No">No</label>
+        <p>what are the languages you know?</p>
+        <input type="checkbox" name="languages">
+        <label for="C">C</label><br>
+        <input type="checkbox" name="languages">
+        <label for="Java" >Java</label>
+        <br><input type="checkbox" name="languages">
+        <label for="Python">Python</label>
+        <p>Any comments or suggestions?</p>
+        <textarea type="message" rows="10" cols="30"></textarea>
+    </form></center>
+</body>
+</html>
